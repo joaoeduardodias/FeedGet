@@ -1,3 +1,5 @@
+import express from 'express'
 
+const app = express()
 
-const teste = 1
+app.listen(3333, ()=> console.log("Server is running!"))
